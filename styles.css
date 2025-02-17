@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.header-footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #4264e2;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(77, 203, 128);
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #a27878;
+}
+
+
+.content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+}
+
+main {
+    width: 70%;
+    padding: 15px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+.sidebar:hover {
+    background-color: #7f287f;
+}
+
+/* Form Input Focus Effect */
+input[type="text"] {
+    transition: width 0.3s ease;
+    width: 150px;
+}
+
+input[type="text"]:focus {
+    width: 200px;
+}
